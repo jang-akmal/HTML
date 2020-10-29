@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas Form Akmal</title>
+</head>
+<body style="background-color:powderblue">
+<form id="registrasi" action="/signup" method="post">
+	<fieldset id="signup">
+	
+		<legend><h1 align="enter">Form Registrasi</h1></legend>
+		<ol>
+			<h2 align="left">Data Diri</h2>
+			<p>
+				<label for="nisn">NISN : </label>
+				<input id="nisn">
+			</p>
+			<p>
+				<label for="namalengkap">Nama Lengkap :</label>
+				<input id="namalengkap">
+			</p>
+			<p>
+				<label for="tempatlahir">Tempat Lahir :</label>
+				<input id="tempatlahir">		
+			</p>
+			<p>
+				<label for="birthday">Tanggal Lahir : </label>
+				<input type="date" id="birthday">
+			<p>
+				<label>Jenis Kelamin :</label>
+				<label><input type="radio" name="jeniskelamin" value="laki-laki" />Laki-laki</label>
+				<label><input type="radio" name="jeniskelamin" value="perempuan" />Perempuan</label>
+			</p>
+			<p>
+				<label>Agama :</label>
+				<select name="agama">
+					<option value="Islam">Islam</option>
+					<option value="Kristen">Kristen</option>
+					<option value="Budha">Budha</option>
+					<option value="hindu">Hindu</option>
+				</select>
+			</p>
+			<p>
+				<label>Alamat :</label>
+				<textarea name="Alamat"></textarea>
+			</p>
+			<p>
+				<label>Asal Sekolah :</label>
+				<select name="asalsekolah">
+					<option value="luardepok">Luar Kota Depok</option>
+					<option value="dalamdepok">Dalam Kota Depok</option>
+			</p>
+			<p>
+				<h2 align="left">Nilai Akademis</h2>
+				<label for="bahasaindonesia">Bahasa Indonesia</label>
+				<input id="bahasaindonesia">
+				<h2 align="left">Nilai Akademis</h2>
+				<label for="bahasaindonesia">Bahasa Indonesia : </label>
+				<input id="bahasaindonesia">
+			</p>
+			<p>
+				<label for="matematika">Matematika : </label>
+				<input id="matematika">
+			</p>
+			<p>
+				<label for="bahasainggris">Bahasa Inggris : </label>
+				<input id="bahasainggris">
+			</p>
+
+			<h2 align="left">Pilih Program Studi</h2>
+			<p>
+				<label>Program Studi :</label>
+				<label><input type="radio" name="programstudi" value="sisteminformasi" />Sistem Informasi</label>
+				<label><input type="radio" name="programstudi" value="teknikinformatika" />Teknik Informatika</label>
+			</p>
+			<h2 align="left">Upload Berkas</h2>
+			<p>
+				<label for="ktp">Foto KTP : </label>
+				<input type="file" name="Foto KTP">
+			</p>
+			<p>
+				<label for="kk">Foto Kartu Keluarga : </label>
+				<input type="file" name="Foto KK">
+			</p>
+			<p>
+				<label for="pasfoto">Pas Foto : </label>
+				<input type="file" name="pasfoto">
+			</p>
+			<p>
+				<label for="skck">SKCK : </label>
+				<input type="file" name="SKCK">
+			</p>
+				<input type="submit" value="Submit">
+		</ol>
+</form>
+</body>
+</html>
